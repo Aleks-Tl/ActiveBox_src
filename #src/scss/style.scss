@@ -1,0 +1,21 @@
+@import "base/variables";
+@import "base/mixins";
+@import "fonts";
+@import "base/reset";
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+* {
+    font-family: 'Raleway', sans-serif;
+}
+body.lock {
+    overflow: hidden;
+  }
+
+
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/button";
+@import "blocks/media";
