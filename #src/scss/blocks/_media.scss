@@ -102,6 +102,16 @@
             display: block;
         }
     }
+    .advent {
+        &__items {
+            .item-advent {
+               margin: 0 auto;
+               &__img {
+                   margin-top: 50px;
+               }
+            }
+        }
+    }
 }
 
 @media (max-width: 576px) {
