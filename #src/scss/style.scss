@@ -9,6 +9,7 @@
 }
 * {
     font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
 }
 body.lock {
     overflow: hidden;
@@ -19,4 +20,5 @@ body.lock {
 @import "blocks/promo";
 @import "blocks/button";
 @import "blocks/advent";
+@import "blocks/gallery";
 @import "blocks/media";
