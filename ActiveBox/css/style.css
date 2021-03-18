@@ -450,6 +450,19 @@ body.lock {
   margin-bottom: 45px;
 }
 
+.reviews__img {
+  -webkit-transition: all 0.1s linear 0s;
+  -o-transition: all 0.1s linear 0s;
+  transition: all 0.1s linear 0s;
+}
+
+.reviews__img:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.015);
+      -ms-transform: scale(1.015);
+          transform: scale(1.015);
+}
+
 .reviews .descr-reviews__title {
   margin-top: 30px;
   font-size: 22px;
@@ -486,6 +499,13 @@ body.lock {
   border: 1px solid #c6cacc;
   text-align: center;
   padding-top: 10px;
+  -webkit-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+
+.reviews .descr-reviews__social a:hover {
+  background-color: #393c3f;
 }
 
 @media (max-width: 1200px) {
