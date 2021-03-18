@@ -130,6 +130,7 @@ body.lock {
           align-items: center;
   position: fixed;
   left: 0;
+  z-index: 5;
 }
 
 .header .wrapper {
@@ -153,12 +154,12 @@ body.lock {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.9);
 }
 
 .header__logo {
   position: relative;
-  z-index: 2;
+  z-index: 5;
 }
 
 .header .menu-header {
@@ -381,7 +382,6 @@ body.lock {
   left: 50%;
   -webkit-transform: translate3d(-50%, -50%, 0);
           transform: translate3d(-50%, -50%, 0);
-  z-index: 1;
 }
 
 .gallery__descr {
@@ -401,7 +401,6 @@ body.lock {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1;
   width: 100%;
   height: 100%;
   background-color: rgba(224, 107, 94, 0.85);
@@ -487,6 +486,19 @@ body.lock {
   .header .menu-header__link {
     margin-left: 30px;
   }
+
+  .gallery__wrap {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .gallery__item {
+    width: 33.33%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -545,6 +557,10 @@ body.lock {
   .advent__items .item-advent__img {
     margin-top: 50px;
   }
+
+  .gallery__item {
+    width: 50%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -560,6 +576,10 @@ body.lock {
   }
 
   .promo__subtitle {
+    width: 100%;
+  }
+
+  .gallery__item {
     width: 100%;
   }
 }
