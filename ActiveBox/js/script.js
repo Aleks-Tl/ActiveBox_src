@@ -27,7 +27,12 @@ $(document).ready(function() {
         $('.promo__burger, .menu-header').removeClass('active');
         $('body').removeClass('lock');
     });
+    $('.slider__carousel').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+    });
 });
     
-
 
