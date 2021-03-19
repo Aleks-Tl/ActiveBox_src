@@ -1,0 +1,22 @@
+.copyright {
+    min-height: 94px;
+    text-align: center; 
+    background-color: #313454;
+    padding-top: 29px;
+    &__text {
+        width: 312px;
+        margin: 0 auto;
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 400;
+        color: #808080;
+    }
+    &__heart {
+        color: red;
+        margin-right: 7px;
+        margin-left: 5px;
+    }
+    &__link {
+        color: #ffffff;
+    }
+}
