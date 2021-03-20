@@ -28,5 +28,9 @@
         font-weight: 600;
         text-transform: uppercase;
         color: #ffffff;
+        transition: all 0.3s linear 0s;
+        &:hover {
+            box-shadow: 1px 1px 10px #000;
+        }
     }
 }

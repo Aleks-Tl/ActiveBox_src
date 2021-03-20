@@ -15,7 +15,17 @@ body.lock {
     overflow: hidden;
   }
 
-
+.pageup {
+    //display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+    img {
+        width: 100%;
+    }
+}
 @import "blocks/header";
 @import "blocks/promo";
 @import "blocks/button";
@@ -26,4 +36,5 @@ body.lock {
 @import "blocks/download";
 @import "blocks/footer";
 @import "blocks/copyright";
+@import "blocks/modal";
 @import "blocks/media";

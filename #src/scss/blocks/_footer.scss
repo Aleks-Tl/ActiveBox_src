@@ -47,6 +47,10 @@
                  width: 40px;
                  height: 40px;
                  border: 2px solid #fff;
+                 transition: all 0.3s linear 0s;
+                 &:hover {
+                     background-color: rgb(27, 31, 87);
+                 }
                 }
             }
         }
